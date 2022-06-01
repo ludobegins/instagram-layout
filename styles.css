@@ -2,10 +2,11 @@
 
 body {
     background-color: #FAFAFA;
+    font-family: 'Roboto', sans-serif;
 }
 
 .main-view {
-    width: 945px;
+    width: 935px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -17,6 +18,7 @@ body {
     height: 54px;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 34px;
 }
 
 .home {
@@ -40,7 +42,6 @@ body {
 
 .search-bar {
     background-color: #FAFAFA;
-    font-family: 'Roboto', sans-serif;
     color: #979797;
     font-size: 12px;
     font-weight: 400;
@@ -50,4 +51,70 @@ body {
     text-align: center;
     border: 1px solid #DBDBDB;
     border-radius: 3px;
+}
+
+.content {
+    display: flex;
+}
+
+.main-bar {
+    width: 614px;
+    display: flex;
+    flex-direction: column;
+}
+
+.stories {
+    height: 118px;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding-left: 15px;
+    margin-bottom: 24px;
+}
+
+.stories img {
+    width: 66px;
+    background-image: url(/img/stories_background.png);
+    background-size: 66px 66px;
+    margin-bottom: 5px;
+}
+
+.stories div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #262626;
+    margin-right: 13px;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+}
+
+.post {
+    border: 1px solid #DBDBDB;
+}
+
+.post-top {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.poster {
+    display: flex;
+    align-items: center;
+}
+
+.post-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
