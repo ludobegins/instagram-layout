@@ -270,3 +270,26 @@ h3 {
     font-weight: 400;
     margin-top: 18px;
 }
+
+@media (max-width:935px) {
+
+    .content{
+        justify-content: center;
+    }
+
+    .side-bar {
+        display:none;
+    }
+
+    .home {
+        margin-left: 10px;
+    }
+
+}
+
+@media (max-width:614px) {
+
+    .main-bar {
+        width: 100%;
+    }
+}
