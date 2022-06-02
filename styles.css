@@ -211,7 +211,62 @@ h3 {
 .profile-name p {
     font-size: 14px;
     font-weight: 300;
-    color:gray;
+    color:#8E8E8E;
     margin-top: 3px;
 }
 
+.suggestions {
+    margin-bottom: 33px;
+}
+
+.suggestions-top {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 18px;
+}
+
+.suggestions-text {
+    color: #8E8E8E;
+    font-weight: 500;
+}
+
+.suggestions-see-all {
+    font-weight: 500;
+}
+
+.suggestion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.suggestion-profile {
+    display: flex;
+    align-items: center;
+}
+
+.suggestion-profile div {
+    margin-left: 10px;
+}
+
+.suggestion-profile p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #8E8E8E;
+}
+
+.follow {
+    font-size: 12px;
+    font-weight: 500;
+    color: #139EF2;
+}
+
+.instagram-company p {
+    color: #C7C7C7;
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: 18px;
+}
