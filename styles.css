@@ -108,7 +108,7 @@ body {
 .stories img {
     width: 66px;
     height: 66px;
-    background-image: url(/img/stories_background.png);
+    background-image: url(img/stories_background.png);
     background-size: 66px 66px;
     padding: 5px;
     margin-bottom: 5px;
