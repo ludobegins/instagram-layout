@@ -115,7 +115,7 @@ body {
 }
 
 .stories p {
-    width: inherit;
+    width: 76px;
     text-align: center;
     font-size: 12px;
     font-weight: 400;
@@ -141,6 +141,10 @@ body {
     border-radius: 3px;
     border: 1px solid #DBDBDB;
     margin-bottom: 60px;
+}
+
+.last-post {
+    margin-bottom: 0;
 }
 
 .post-top {
