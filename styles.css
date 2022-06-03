@@ -115,8 +115,13 @@ body {
 }
 
 .stories p {
+    width: inherit;
+    text-align: center;
     font-size: 12px;
     font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .stories ion-icon {
